@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Crescer - Oportunidade para o Futuro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Lexend', sans-serif; }
+        .section { min-height: 80vh; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-300">
+
+    <header class="bg-slate-900/80 backdrop-blur-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-white font-bold text-xl">
+                <a href="#inicio">Projeto Crescer</a>
+            </div>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#inicio" class="hover:text-indigo-400 transition-colors">Início</a></li>
+                <li><a href="#teste-vocacional" class="hover:text-indigo-400 transition-colors">Teste Vocacional</a></li>
+                <li><a href="#cadastramento" class="hover:text-indigo-400 transition-colors">Cadastramento</a></li>
+                <li><a href="#unidades" class="hover:text-indigo-400 transition-colors">Unidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="section flex items-center justify-center text-center bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop);">
+            <div class="max-w-3xl px-4">
+                <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">Construindo o caminho para o futuro profissional do seu filho.</h1>
+                <p class="mt-4 text-lg md:text-xl text-slate-200">Um programa gratuito que abre portas para o mercado de trabalho através de orientação e cadastramento.</p>
+                <a href="#teste-vocacional" class="mt-8 inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-transform hover:scale-105">Conheça os Passos</a>
+            </div>
+        </section>
+
+        <section id="teste-vocacional" class="section container mx-auto px-6 py-20 flex items-center">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <span class="text-indigo-400 font-semibold">PRIMEIRO PASSO</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mt-2">Teste Vocacional</h2>
+                    <p class="text-xl text-slate-400 mt-4">Uma avaliação de perfil completa.</p>
+                    <p class="mt-4">
+                        É uma ferramenta que ajuda o jovem a conhecer melhor seus interesses, habilidades e aptidões. Através de uma conversa com nossos orientadores, identificamos as áreas profissionais que mais combinam com o perfil do seu filho, dando um norte claro para suas futuras escolhas.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop" alt="Orientação Vocacional" class="rounded-2xl shadow-2xl">
+                </div>
+            </div>
+        </section>
+
+        <section id="cadastramento" class="section bg-slate-800">
+            <div class="container mx-auto px-6 py-20 flex items-center">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop" alt="Cadastramento" class="rounded-2xl shadow-2xl">
+                    </div>
+                    <div class="text-center md:text-left order-1 md:order-2">
+                        <span class="text-indigo-400 font-semibold">SEGUNDO PASSO</span>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mt-2">Cadastramento</h2>
+                        <p class="text-xl text-slate-400 mt-4">Encaminhamento para oportunidades.</p>
+                        <p class="mt-4">
+                           Após o teste vocacional, realizamos o cadastramento do jovem em nosso banco de talentos. Este cadastro é utilizado para conectar seu filho a vagas de Jovem Aprendiz e estágios em empresas parceiras, alinhadas ao seu perfil e interesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="unidades" class="section container mx-auto px-6 py-20 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white">Nossas Unidades</h2>
+            <p class="mt-4 max-w-2xl mx-auto text-slate-400">Estamos em pontos estratégicos para facilitar o acesso. Encontre a unidade mais próxima.</p>
+            <div class="mt-12 grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=2070&auto=format&fit=crop" alt="Belo Horizonte" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-white">Unidade Centro - BH</h3>
+                        <p class="mt-2 text-slate-400">Rua Curitiba, 656, 11° andar - Centro, Belo Horizonte.</p>
+                        <p class="mt-1 text-sm text-slate-500">(Em frente a Casa&Video, próximo a Marisa)</p>
+                    </div>
+                </div>
+                <div class="bg-slate-800 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1603584836425-163a3e4331e7?q=80&w=1974&auto=format&fit=crop" alt="Contagem" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-white">Unidade Eldorado - Contagem</h3>
+                        <p class="mt-2 text-slate-400">Avenida João César de Oliveira, Nº 953, 2º andar – Eldorado, Contagem.</p>
+                        <p class="mt-1 text-sm text-slate-500">(Em frente a Caixa Econômica Federal, próximo ao Big Shopping)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 border-t border-slate-800">
+        <div class="container mx-auto px-6 py-6 text-center text-slate-500">
+            <p>&copy; 2025 Projeto Crescer. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
